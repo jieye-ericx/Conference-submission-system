@@ -10,5 +10,3 @@ git commit -m 'deploy'
 # 这里的access_token是travis设置的环境变量
 git push -f https://${gtoken}@github.com/jieye-ericx/conference-submission-system master:deploy
 cd -  # 返回上一层
-
-# ssh root@47.103.212.239 'Hx608136 && yes && cd /paperSubmission/frontend_travis/ && mkdir aaa'
